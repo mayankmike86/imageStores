@@ -35,3 +35,6 @@ sudo docker run -p 8080:8080 image-store-service
 
 # Logs
 sudo docker logs -f <container-id>
+  
+# Deployment
+Use the kubectl apply command to apply the deployment and service manifests to your Kubernetes cluster. This will create the necessary deployments, pods, and services to run your application.
